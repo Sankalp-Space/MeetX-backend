@@ -36,7 +36,7 @@ cd meetx-backend
 2. **Install dependencies**
 ```
 npm install
-Create .env file
+
 ```
 
 3.**Setup .env**
