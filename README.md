@@ -1,4 +1,4 @@
-# 🧾 MeetX Backend - Activity Booking API
+# MeetX Backend - Activity Booking API
 
 This is a backend REST API built as part of the Backend Developer Internship assignment for **MeetX** (Altrodav Technologies Pvt. Ltd). It provides user authentication and basic functionality to browse and book activities like sports or events.
 
@@ -62,13 +62,25 @@ POST	/meetx/auth/login	    Login and get JWT token
 
 **Activities**
 ```
-Method	Endpoint	Description
-GET	/api/activities	List all public activities
+Method	Endpoint         	Description
+GET	   /meetx/activities	List all public activities
+POST   /meetx/activities	add a  public activities
 ```
 
 ** Bookings (JWT Required)**
 ```
-Method	Endpoint	Description
-POST	/api/bookings	Book an activity (by activity ID)
-GET	/api/bookings	Get current user's bookings
+Method	Endpoint	     Description
+POST	/meetx/bookings	 Book an activity (by activity ID)
+GET	/meetx/bookings	  Get current user's bookings
 ```
+
+## Deployed URL
+
+Try it live: **[Deployemnt URL](https://imagify1-13gr.onrender.com)**
+
+---
+## Postman APIs Collection
+
+Check it: **[Postman APIs Collections](https://www.postman.com/api-testing-7092/workspace/mangojelly/collection/36163184-def154d5-4865-40e4-a498-d0db90eed3c0?action=share&creator=36163184)**
+
+---
