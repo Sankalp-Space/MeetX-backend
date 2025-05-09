@@ -30,7 +30,7 @@ meetx-backend/
 
 1. **Clone the repository**
 ```
-git clone https://github.com/YOUR_USERNAME/meetx-backend.git
+git clone https://github.com/Sankalp-Space/MeetX-backend
 cd meetx-backend
 ```
 2. **Install dependencies**
